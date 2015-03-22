@@ -22,7 +22,7 @@
 #include<unistd.h>
 #include<signal.h>
 
-#define MAX_LINE 4096
+#define MAXLINE 4096
 
 /*
 *Default file acess permissions for new files.
@@ -40,5 +40,5 @@
 void pr_mask(const char *);
 
 
-
+void err_sys(const char*,...);
 #endif
